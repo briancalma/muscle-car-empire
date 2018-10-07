@@ -1,0 +1,169 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<script type="text/javascript" src="mm_functions.js"></script>
+<script language="JavaScript" type="text/javascript">
+function PrevChk() {
+  theForm=document.form1;
+  var CheckF = new Array('name','email');
+  var CheckFN = new Array('Name','E-mail');
+  var CheckFType = new Array('text','email');
+
+  if(!CheckFormData(theForm,CheckF,CheckFN,CheckFType,'EN')){return false;};
+  
+  if(window.navigator.onLine==true){theForm.submit();}
+  else {alert("Make sure your computer is connected to the Internet."); return false;}
+	
+  theForm.submit();
+  return true;
+}
+function PrevChk2() {
+  theForm=document.form1;
+  
+  if(window.navigator.onLine==true){
+  window.open('http://www.silicon-power.com/member/privacy_article.php?currlang=utf8','_blank')
+  }
+  else {alert("Make sure your computer is connected to the Internet.");}
+  
+  return true;
+}
+function PrevChk3() {
+  theForm=document.form1;
+  
+  if(window.navigator.onLine==true){
+  window.open('http://www.silicon-power.com/product/product_main.php?main=10&currlang=utf8','_blank')
+  }
+  else {alert("Make sure your computer is connected to the Internet.");}
+  
+  return true;
+}
+</script>
+<script type="text/javascript">
+ 
+ function select_PID(targ,selObj,restore){ //v3.0
+  if(window.navigator.onLine==true){
+   eval(targ+".location='http://www.silicon-power.com/member/attach_pro_reg/index.php?type=USBD&currlang="+selObj.options[selObj.selectedIndex].value+"'");
+
+  }else{
+   alert("Make sure your computer is connected to the Internet.");
+   selObj.selectedIndex=4;
+  }
+  if (restore) selObj.selectedIndex=0;
+}
+</script>
+<title>Silicon-power</title>
+<style type="text/css">
+<!--
+@import url("index.css");
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	background-image: url(bg.jpg);
+}
+a:link {
+	color: #666;
+}
+a:visited {
+	color: #666;
+}
+a:hover {
+	color: #666;
+}
+a:active {
+	color: #666;
+}
+-->
+</style>
+</head>
+
+<body>
+<div align="center"><form id="form1" name="form1" method="post" action="http://www.silicon-power.com/member/attach_pro_reg/save.php?currlang=utf8&type=USBD&country=us">
+  <table width="759" height="649" border="0" cellpadding="0" cellspacing="0" class="usb_bg">
+    <tr>
+      <td width="757" align="left" valign="top"><table width="672" height="583" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="218" height="336">&nbsp;</td>
+          <td width="454">&nbsp;</td>
+        </tr>
+        <tr>
+          <td height="247">&nbsp;</td>
+          <td align="left" valign="top"><table width="443" border="0" cellspacing="0" cellpadding="0">
+            <tr>
+              <td width="443" height="50" align="left" valign="top"><table width="438" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="438" class="gray"> Thank you for purchasing SP/ Silicon Power <a href="#" onclick="PrevChk3();"><U>USB Flash Drives</U></a>.<br />
+                    To activate your product warranty, please fill in your information, and you will receive our newsletter regularly. </td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td height="137" align="left" valign="top"><table width="440" border="0" cellpadding="0" cellspacing="0" class="word">
+                <tr>
+                  <td align="center">Country/ Language</td>
+                  <td><select name="menu1" style="width:149px" onchange="select_PID('self',this,0)">
+                    <option value="koi8r"  > Русский </option>
+                    <option value="french"  > French </option>
+                    <option value="sjis"   > 日本語 </option>
+                    <option value="spanish"   > español </option>
+                    <option value="utf8" selected="selected" > English </option>
+                    <option value="kr"  > 한국어 </option>
+                    <option value="ir"   > فارسي </option>
+                    <option value="gb2312"   > 简体中文 </option>
+                    <option value="big5"   > 繁體中文 </option>
+                  </select></td>
+                </tr>
+                <tr>
+                  <td width="75" height="24" align="center">Name</td>
+                  <td width="365"><label>
+                    <input type="text" name="name" id="textfield" />
+                  </label></td>
+                </tr>
+                <tr>
+                  <td height="26" align="center">E-mail</td>
+                  <td><input type="text" name="email" id="textfield2" /></td>
+                  <input type="hidden" name="Product_Category" value="USB Flash Drives" />
+                  <input type="hidden" name="type" value="USBD" />
+                </tr>
+                <tr>
+                  <td height="14" align="center">&nbsp;</td>
+                  <td>&nbsp;</td>
+                </tr>
+                <tr>
+                  <td colspan="2" align="left" class="gray"><table width="438" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td width="431" align="left" valign="top" class="gray">* Please enter your email address carefully, and make sure your computer is connected to the Internet.</td>
+                    </tr>
+                  </table></td>
+                </tr>
+              </table></td>
+            </tr>
+            <tr>
+              <td align="center" valign="middle"><img src="line.png" alt="" width="428" height="2" /></td>
+            </tr>
+            <tr>
+              <td height="46" align="left" valign="top"><table width="438" border="0" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td width="14"><br />                    <br /></td>
+                  <td width="137" align="left" valign="middle"><table width="122" border="0" cellpadding="0" cellspacing="0" class="button01">
+                    <tr>
+                      <td width="10" height="22" align="center" valign="middle" class="white">&nbsp;</td>
+                      <td width="112" align="left" valign="middle" class="white"><strong> <a href="#" onclick="PrevChk();"><font color = "white">REGISTER NOW</font></a></strong></td>
+                    </tr>
+                  </table></td>
+                  <td width="287" class="gray"> By clicking the “REGISTER NOW” button, you agree to our <a href="#" onclick="PrevChk2();"><U>Privacy notice</U></a>. </td>
+                </tr>
+              </table></td>
+            </tr>
+          </table></td>
+        </tr>
+      </table></td>
+    </tr>
+  </table>
+</form>
+</div>
+</body>
+</html>

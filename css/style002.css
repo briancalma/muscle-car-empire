@@ -1,0 +1,198 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+*{
+    box-sizing: border box;
+    transistion: all ease-in-out 250ms;
+    
+}
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #000;
+    color:#FFF;
+    background-position: center;
+
+      
+}
+
+img{
+    max-width: 400px;
+    height: auto;
+}
+
+.container {
+    width: 95%;
+    max-width: 
+    margin: 0 auto;
+}
+
+/*==================== */
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0.1em;
+    margin-top: 13em;
+    font-family:'verdana', sans-serif;
+	color: darkorange;
+    font-family:'verdana', sans-serif;
+    -webkit-text-fill-color: black;
+   -webkit-text-stroke-width: 4px;
+   -webkit-text-stroke-color: darkorange;
+}
+
+.title span {
+    font-weight: 300;
+    display: block;
+    font-size: .9em;
+    
+}
+
+@media (min-width:60rem ){
+    .title{
+        font-size: 3.7rem;
+    }
+}
+
+/* button */
+
+.button{
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+}
+
+.button-accent {
+    color: #fff;
+    border-color: orangered;
+}
+
+
+
+.button-accent:hover,
+.button-accent:focus {
+    background: orangered;
+    color: #000;
+    
+}
+
+@media (min-width: 60rem) {
+    .button {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+/* Header 
+==================== */
+
+#header {
+    position: absolute; 
+    margin-top: 1em;
+    left: 0;
+    right: 0;
+    margin: 1em;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a{
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: .5em;
+    color: #fff;
+    
+}
+
+nav a:hover,
+nav a:focus {
+    color: orangered;
+}
+
+@media (min-width:60rem ){
+    nav{
+        float: center;
+        
+    }
+}
+
+
+
+/* Header 
+==================== */
+
+.home-hero {
+    width: 100%;
+    height: auto;
+    background-image: url(../images/shelby-350-r.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-position: center;
+    
+    
+    
+}
+
+.home-hero h2{
+    font-family:'verdana', sans-serif;
+    color: black;
+    border: 1px solid darkorange;
+    background: darkorange;
+    
+}
+
+.home-hero h3{
+	font-family:'verdana', sans-serif;
+	color:darkorange;
+}
+
+div h3{
+	font-family:'verdana', sans-serif;
+	color:darkorange;
+	font-size:3rem;
+}
+
+footer{
+	font-family:'verdana', sans-serif;
+	color: darkorange
+	
+}
+
+div h5{	
+	border:darkorange;
+    background-color: darkorange;
+    color: black;
+    text-align: center;
+	border: 1px solid darkorange;
+	
+}
+
+@media (min-width: 60rem) {
+    .home-hero {
+        height: 100vh;
+        padding-top: 5vh;
+    }
+}

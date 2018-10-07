@@ -1,0 +1,246 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+*{
+    box-sizing: border box;
+    transistion: all ease-in-out 250ms;
+    
+}
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #000;
+    color:#FFF;
+    background-position: center;
+
+      
+}
+
+
+img{
+    max-width: 700px;
+    height: auto;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: fixed;
+    text-align: center;
+}
+
+
+.container {
+    width: 95%;
+    max-width: 
+    margin: 0 auto;
+}
+.container img{
+    max-width: 400px;
+    height: auto;
+}
+
+/*==================== */
+
+.title {
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 0.1em;
+    margin-top: -1em;
+    color: darkorange;
+    font-family:'verdana', sans-serif;
+	color: black;
+   -webkit-text-fill-color: black;
+   -webkit-text-stroke-width: 4px;
+   -webkit-text-stroke-color: darkorange;
+}
+
+.title span {
+    font-weight: 300;
+    display: block;
+    font-size: 2em;
+    
+}
+
+@media (min-width:60rem ){
+    .title{
+        font-size: 3.7rem;
+    }
+}
+
+/* button */
+
+.button{
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+}
+
+.button-accent {
+    color: darkorange;
+    border-color: orangered;
+}
+
+select{
+    
+    border-color: darkorange;
+    background-color: black;
+    color: darkorange;
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    font-family: 'verdana', sans-serif;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+    background: orangered;
+    color: #000;
+    
+}
+
+@media (min-width: 60rem) {
+    .button {
+        font-size: 1.5rem;
+    }
+}
+
+
+
+/* Header 
+==================== */
+
+#header {
+    position: absolute; 
+    margin-top: 1em;
+    left: 0;
+    right: 0;
+    margin: 1em;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a{
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    padding: .5em;
+    color: #fff;
+    
+}
+
+nav a:hover,
+nav a:focus {
+    color: orangered;
+}
+
+@media (min-width:60rem ){
+    nav{
+        float: center;
+        
+    }
+}
+
+
+
+/* Header 
+==================== */
+
+.home-hero {
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;
+    
+    
+}
+
+figure img{
+    
+    width: 700px
+    height: auto;
+    padding: 0;
+    margin: 0;
+	overflow:auto;
+    
+}
+
+.home-about h2{
+    font-family:'verdana', sans-serif;
+    color: black;
+    border: 1px solid darkorange;
+    background: darkorange;
+
+    
+}
+
+section h2{
+    
+    font-family:'verdana', sans-serif;
+    color: black;
+    border: 1px solid darkorange;
+    background: darkorange;
+    
+    
+}
+
+span h3{
+	font-family:'verdana', sans-serif;
+	color:darkorange;
+	font-size:3rem;
+}
+
+h3{
+	color:darkorange;
+}
+
+footer{
+	font-family:'verdana', sans-serif;
+	color: darkorange;
+}
+
+	
+div h5{
+	border:darkorange;
+    background-color: darkorange;
+    color: black;
+    text-align: center;
+	border: 1px solid darkorange;
+}
+
+
+
+@media (min-width: 60rem) {
+    .home-hero {
+        height: 100vh;
+        padding-top: 5vh;
+        
+        
+
+        
+}
+}
+
+

@@ -1,0 +1,214 @@
+@import
+url('https://fonts.googleapis.com/css?family=Raleway:300,400,700,900');
+
+*{
+    box-sizing: border box;
+    transistion: all ease-in-out 250ms;
+    
+}
+
+body{
+    
+    margin: 0;
+    padding: 0;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    background-color: #000;
+    color:#FFF;
+    background-position: center;      
+}
+
+img{
+    max-width: 1000px;
+    height: auto;
+}
+
+.container {
+    width: 100%; 
+    margin: 0 auto;
+    overflow:hidden;
+}
+.container img{
+    max-width: 400px;
+    height: auto;
+}
+
+/*==================== */
+
+.title {
+    font-size: 15rem;
+    text-align: center;
+    display: block;
+    margin-bottom: 0.1em;
+    margin-top: -1em;
+    color: darkorange;
+    font-family: 'verdana', sans-serif;
+    color: black;
+   -webkit-text-fill-color: black;
+   -webkit-text-stroke-width: 4px;
+   -webkit-text-stroke-color: darkorange;
+  
+}
+
+.title span {
+    font-weight: 400;
+    display: block
+    font-size: .9em;
+    color:darkorange;    
+}
+
+/* button */
+
+.button{
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+}
+
+.button-accent {
+    color: darkorange;
+    border-color: orangered;
+}
+
+select{
+    
+    border-color: darkorange;
+    background-color: black;
+    color: darkorange;
+    display: inline-block;
+    font-size: 1.15rem;
+    text-decoration: none;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    border-width: 2px;
+    border-style: solid;
+    padding: .5em 1.75em;
+}
+
+.button-accent:hover,
+.button-accent:focus {
+    background: orangered;
+    color: #000;
+    
+}
+
+
+/* Header 
+==================== */
+
+#header {
+    position: absolute; 
+    margin-top: 1em;
+    left: 0;
+    right: 0;
+    margin: 1em;
+}
+
+nav ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav li{
+    display: inline-block;
+    margin: 1em;
+}
+
+nav a{
+    font-weight: 900;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    padding: .5em;
+    color: #fff;
+    
+}
+
+nav a:hover,
+nav a:focus {
+    color: orangered;
+}
+
+.home-hero {
+    background-image: url(../images/mustang-hood-black.jpg);
+    background-size: cover;
+    background-position: center;
+    padding: 10em 0;    
+    background-repeat: no-repeat;
+}
+
+.home-hero h3{
+    font-size: 3em;
+    text-align: center;
+    display: block;
+    color: darkorange;
+    font-family: 'verdana', sans-serif;
+        
+}
+
+figure img{
+    
+    width: 1000px
+    height: auto;
+    padding: 0;
+    margin: 0;
+    display: inline-block;
+    
+}
+
+.home-about h2{
+    font-family:'verdana', sans-serif;
+    color: black;
+    border: 1px solid darkorange;
+
+    
+}
+
+section h2{
+    
+    font-family:'verdana', sans-serif;
+    color: black;
+    border: 1px solid darkorange;
+    background: darkorange;
+
+    
+}
+
+section h1{
+	font-family:'verdana', sans-serif;
+	font-size:3rem;
+   -webkit-text-fill-color: black;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: darkorange;	
+}
+
+
+footer{
+	font-family:'verdana', sans-serif;
+	color: darkorange;
+}
+	
+h5{
+	border:darkorange;
+    background-color: darkorange;
+    color: black;
+    text-align: center;
+	border: 1px solid darkorange;    
+}
+
+@media(max-width: 1000px) {
+    .title {
+        font-size: 5rem;
+    }
+}
+
+@media(min-width: 1000px) {
+    .title {
+        font-size: 14rem;
+    }
+}

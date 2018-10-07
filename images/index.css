@@ -1,0 +1,44 @@
+@charset "utf-8";
+/* CSS Document */
+
+.word {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	font-style: normal;
+	line-height: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	color: #000;
+	text-decoration: none;
+}
+.usb_bg {
+	background-image: url(usb_bg.jpg);
+}
+
+.gray {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #666;
+	text-decoration: none;
+}
+
+.top1 {
+	background-image: url(top_1.png);
+}
+.top2 {
+	background-image: url(top_2.png);
+}
+.button01 {
+	background-image: url(Click.png);
+}
+.top3 {
+	background-image: url(top_3.png);
+}
+
+.white {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	text-decoration: none;
+}
